@@ -10,6 +10,23 @@ $ cd bin
 $ ./parser
 $ all
 ```
+## $ FastRun
+### imgur
+``` bash
+./parser -D i.imgur.com -F .png -P out/ -G 1 -GC 5 -C 100
+```
+### lightshot
+``` bash
+./parser -D prnt.sc -F .png -P out/ -G 1 -GC 5 -C 100
+```
+### freeimage
+``` bash
+./parser -D iili.io -F .png -P out/ -G 1 -GC 7 -C 100
+```
+### pasteboard
+``` bash
+./parser -D gcdnb.pbrd.co/images -F .png -P out/ -G 1 -GC 12 -C 100
+```
 ## $ Using
 ```
 
@@ -30,22 +47,4 @@ $ all
     optional arguments:
       -h, --help            show this help message
 
-```
-
-## $ FastRun
-### imgur
-``` bash
-./parser -D i.imgur.com -F .png -P out/ -G 1 -GC 5 -C 100
-```
-### lightshot
-``` bash
-./parser -D prnt.sc -F .png -P out/ -G 1 -GC 5 -C 100
-```
-### freeimage
-``` bash
-./parser -D iili.io -F .png -P out/ -G 1 -GC 7 -C 100
-```
-### pasteboard
-``` bash
-./parser -D gcdnb.pbrd.co/images -F .png -P out/ -G 1 -GC 12 -C 100
 ```
