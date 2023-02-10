@@ -12,7 +12,7 @@
 
 using namespace termcolor;
 namespace fs = std::filesystem;
-fs::create_directories("out"); // Create folder
+
 algorithms alg;
 files f;
 generatealg ga;
@@ -102,6 +102,7 @@ void Check()
 
 int main(int argc, char *argv[])
 {
+    fs::create_directories("out"); // Create folder
     if (argc <= 1)
     {
         if (argv[0])
