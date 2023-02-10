@@ -3,12 +3,12 @@
 
 ## $ Linux 
 ```
-$ git clone https://github.com/Lomasterrrr/Photo-Host-Killer
-$ cd Photo-Host-Killer
-$ make
-$ cd bin
-$ ./parser
-$ all
+git clone https://github.com/Lomasterrrr/Photo-Host-Killer
+cd Photo-Host-Killer
+make
+cd bin
+./parser
+all
 ```
 ## $ Using
 ```
