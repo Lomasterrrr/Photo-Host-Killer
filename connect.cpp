@@ -1,6 +1,6 @@
 #include "modules/connect.h"
 #include "modules/clear.h"
-#include "lib/curl.h"
+#include "curl/curl.h"
 void connect::DownloadFile(const char *link, const char *outfile)
 {
     CURL *curl;
