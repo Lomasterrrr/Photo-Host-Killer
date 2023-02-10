@@ -1,0 +1,2 @@
+cd bin
+./parser -h
